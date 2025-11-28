@@ -7,18 +7,19 @@
     <link rel="icon" type="image/png" href="/assets/icon-logo-crop.jpg" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body class="bg-[#23273a]">
     <footer
-      class="bg-[#212236] flex justify-center gap-7 px-20 py-6 fixed top-0 w-full"
+      class="bg-[#212236] flex justify-center gap-7 px-20 py-6 fixed top-0 w-full z-10"
     >
       <a href="#welcome" class="text-white">Welcome</a>
       <a href="#aboutme" class="text-white">About Me</a>
       <a href="#skills" class="text-white">Skills</a>
       <a href="#projects" class="text-white">Projects</a>
-      <a href="" class="text-white">Experience</a>
-      <a href="" class="text-white">Certification</a>
-      <a href="" class="text-white">Contact</a>
+      <a href="#experience" class="text-white">Experience</a>
+      <a href="#certification" class="text-white">Certification</a>
+      <a href="#contact" class="text-white">Contact</a>
     </footer>
     <main class="px-40 flex flex-col gap-10">
       <section id="welcome" class="h-[100vh] flex scroll-mt-24">
@@ -27,7 +28,7 @@
             <img
               src="/assets/foto.jpg"
               alt="my-picture"
-              class="w-70 h-auto rounded-md"
+              class="w-70 h-auto rounded-md mt-5"
             />
           </div>
         </div>
@@ -48,7 +49,12 @@
           </p>
         </div>
       </section>
-      <section id="aboutme" class="h-[100vh] flex scroll-mt-24">
+      <section
+        id="aboutme"
+        class="h-[100vh] flex scroll-mt-40"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <div class="w-full pr-6">
           <h1>About Me</h1>
           <p class="text-justify">
@@ -90,10 +96,16 @@
           </div>
         </div>
       </section>
-      <section id="skills" class="w-full h-[100vh] scroll-mt-24">
+      <section
+        id="skills"
+        class="w-full h-[100vh] scroll-mt-24"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <h1 class="text-center">My Skills</h1>
         <div class="grid grid-cols-5 gap-10 pt-10">
           <div
+            data-aos="zoom-in"
             class="flex justify-center bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -102,6 +114,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -110,6 +123,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -118,6 +132,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -126,6 +141,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -134,6 +150,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -142,6 +159,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -150,6 +168,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -158,6 +177,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -166,6 +186,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -174,6 +195,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -182,6 +204,7 @@
             />
           </div>
           <div
+            data-aos="zoom-in"
             class="flex justify-center p-4 bg-gray-800 rounded-xl transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105 hover:rotate-3"
           >
             <img
@@ -191,10 +214,16 @@
           </div>
         </div>
       </section>
-      <section id="projects" class="w-full scroll-mt-24">
+      <section
+        id="projects"
+        class="w-full scroll-mt-24"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <h1 class="text-center">Projects</h1>
         <div class="grid grid-cols-3 gap-4">
           <div
+            data-aos="zoom-in"
             onclick="window.open(`https://adityadifa-mission-advance-1.netlify.app/`, '_blank')"
             class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
           >
@@ -204,6 +233,7 @@
             <h2>Frontend - HariSenin Task</h2>
           </div>
           <div
+            data-aos="zoom-in"
             onclick="window.open(`https://caesar-cipher-aditya-difa.netlify.app/`, '_blank')"
             class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
           >
@@ -213,6 +243,7 @@
             <h2>Caesar Cipher</h2>
           </div>
           <div
+            data-aos="zoom-in"
             onclick="window.open(`https://adityadifalists.netlify.app/`, '_blank')"
             class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
           >
@@ -222,6 +253,7 @@
             <h2>Task List</h2>
           </div>
           <div
+            data-aos="zoom-in"
             onclick="window.open(`https://drive.google.com/drive/folders/1hmoPmg37xeq0QW-t58ubYCtLOGaTuIix?usp=sharing`, '_blank')"
             class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
           >
@@ -231,6 +263,7 @@
             <h2>Wayang AR and Quiz</h2>
           </div>
           <div
+            data-aos="zoom-in"
             onclick="window.open(`https://drive.google.com/drive/folders/1L-2MyqWX3E_MfjVddaLDHOBPqoI_CLxe?usp=sharing`, '_blank')"
             class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
           >
@@ -238,6 +271,159 @@
               <img src="/assets/basket.jpg" class="rounded-md" />
             </div>
             <h2>Basket AR</h2>
+          </div>
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://drive.google.com/drive/folders/1sbWprrQT49Uf9I0beJikfb6iTVjnbMbw?usp=sharing`, '_blank')"
+            class="h-fit p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <div>
+              <img
+                src="/assets/deteksikendaraantempur.PNG"
+                class="rounded-md"
+              />
+            </div>
+            <h2>Deteksi Kendaraan Tempur</h2>
+          </div>
+        </div>
+      </section>
+      <section
+        id="experience"
+        class="w-full scroll-mt-24 h-[100vh]"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        <h1>Experience</h1>
+        <ul class="list-disc pl-6">
+          <li>
+            Participated in the MSIB program as a Bangkit 2023 Cohort in the
+            <strong>Machine Learning Learning</strong> Path - 2023
+          </li>
+          <li>
+            Built and trained a
+            <strong>Convolutional Neural Network (CNN)</strong> model for
+            classifying and detecting vegetable images as the Capstone Project
+            of the MSIB Bangkit 2023 <strong>Machine Learning</strong> Cohort -
+            2023
+          </li>
+          <li>
+            Developed an <strong>AR-based</strong> educational
+            <strong>quiz game</strong> called Wayang Nusantara Pandawa using
+            <strong>Unity and Vuforia</strong> - 2024
+          </li>
+          <li>
+            Built an <strong>AR basketball throw simulation</strong> using
+            <strong>AR plane detection in Unity</strong> - 2024
+          </li>
+          <li>
+            Built and trained a
+            <strong>YOLOv11-based object detection model</strong> to identify
+            and classify combat vehicles, conducted as the final thesis project
+            for my bachelor's degree - 2025
+          </li>
+          <li>
+            Participated in the
+            <strong>Fullstack Web Developer</strong> Bootcamp Batch 17 at
+            HariSenin - 2025
+          </li>
+        </ul>
+      </section>
+      <section
+        id="certification"
+        class="w-full scroll-mt-24 h-[100vh]"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        <h1 class="text-center">Certification</h1>
+        <div class="grid grid-cols-3 gap-5">
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://www.dicoding.com/certificates/72ZDV50LQZYW`, '_blank')"
+            class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <div>
+              <img src="/assets/certificate/dicoding.PNG" class="rounded-md" />
+            </div>
+            <h2>Belajar Dasar Pemrograman JavaScript</h2>
+          </div>
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://itbox.id/certificate-verifier/1394F98C1-13ECB6949-12CEA63B9`, '_blank')"
+            class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <div>
+              <img src="/assets/certificate/dicoding.PNG" class="rounded-md" />
+            </div>
+            <h2>
+              Belajar Menjadi Full Stack JavaScript Web Developer Tingkat Mahir
+            </h2>
+          </div>
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://drive.google.com/file/d/1z7oV7K0DxFS7bBdk6aJlN54hW0GRtDvl/view?usp=sharing`, '_blank')"
+            class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <div>
+              <img src="/assets/certificate/bnsp.PNG" class="rounded-md" />
+            </div>
+            <h2>Web Development - Kompetensi Pengembang Web Pertama BNSP</h2>
+          </div>
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://www.coursera.org/account/accomplishments/specialization/RBARUMRZZ5C3`, '_blank')"
+            class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <div>
+              <img
+                src="/assets/certificate/machinelearning.jpeg"
+                class="rounded-md"
+              />
+            </div>
+            <h2>Specialization Certificate Machine Learning</h2>
+          </div>
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://www.linkedin.com/in/aditya-difa-59901b193/`, '_blank')"
+            class="p-3 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <h2>Click to view more certificates</h2>
+          </div>
+        </div>
+      </section>
+      <section
+        id="contact"
+        class="w-full scroll-mt-24 h-[100vh]"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        <h1 class="text-center">Contact Me</h1>
+        <div class="w-full h-[50%] flex items-center justify-center p-3 gap-7">
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://github.com/AdityaDifa`, '_blank')"
+            class="h-fit p-1 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <div>
+              <img src="/assets/icon/github.svg" class="rounded-md w-30" />
+            </div>
+          </div>
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://www.linkedin.com/in/aditya-difa-59901b193/`, '_blank')"
+            class="h-fit p-1 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <div>
+              <img src="/assets/icon/linkedin.svg" class="rounded-md w-30" />
+            </div>
+          </div>
+          <div
+            data-aos="zoom-in"
+            onclick="window.open(`https://www.instagram.com/aditya_difa123/`, '_blank')"
+            class="h-fit p-1 flex flex-col gap-1 items-center justify-around bg-[#2b2d41] transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(255,0,0,0.4)] hover:-translate-y-2 hover:scale-105"
+          >
+            <div>
+              <img src="/assets/icon/instagram.svg" class="rounded-md w-30" />
+            </div>
           </div>
         </div>
       </section>
@@ -248,5 +434,9 @@
     >
       This website is best viewed on a PC or Laptop for the optimal experience.
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
